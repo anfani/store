@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05890e05-48b3-4baa-86d0-28c3c5696c00" name="Changes" comment="закончил модуль 4.7">
-      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+    <list default="true" id="05890e05-48b3-4baa-86d0-28c3c5696c00" name="Changes" comment="закончил модуль 4.8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +122,7 @@
       <workItem from="1725986238068" duration="75000" />
       <workItem from="1725987055356" duration="1528000" />
       <workItem from="1725996161269" duration="6603000" />
-      <workItem from="1726055162403" duration="10231000" />
+      <workItem from="1726055162403" duration="13034000" />
     </task>
     <task id="LOCAL-00001" summary="добавил продукт в сеттинг">
       <option name="closed" value="true" />
@@ -193,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726071176241</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="закончил модуль 4.8">
+      <option name="closed" value="true" />
+      <created>1726071838891</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726071838891</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +219,8 @@
     <MESSAGE value="закончил модуль 3.x" />
     <MESSAGE value="закончил модуль 4.5" />
     <MESSAGE value="закончил модуль 4.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="закончил модуль 4.7" />
+    <MESSAGE value="закончил модуль 4.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="закончил модуль 4.8" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/store$mia.coverage" NAME="mia Coverage Results" MODIFIED="1725986534897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/store" />
