@@ -3,7 +3,7 @@
     "model": "products.product",
     "pk": 2,
     "fields": {
-      "name": "���� ������� ����� � ������������ adidas Originals",
+      "name": "adidas Originals",
       "description": "������ ����� ��� ���������. ����� � ������� � ��� ����� �����.",
       "price": "6090.00",
       "quantity": 10,
@@ -15,7 +15,7 @@
     "model": "products.product",
     "pk": 3,
     "fields": {
-      "name": "����� ������ The North Face",
+      "name": "The North Face",
       "description": "������� �����. ����������������� ��������. ������ � ������ ������� �����������.",
       "price": "2372.00",
       "quantity": 10,
@@ -27,7 +27,7 @@
     "model": "products.product",
     "pk": 4,
     "fields": {
-      "name": "���������� ���������� oversized-��� ASOS DESIGN",
+      "name": "oversized-��� ASOS DESIGN",
       "description": "�������� � �������� ���������. ������� � ������.",
       "price": "3390.00",
       "quantity": 10,
@@ -39,7 +39,7 @@
     "model": "products.product",
     "pk": 5,
     "fields": {
-      "name": "������ ������ Nike Heritage",
+      "name": "Nike Heritage",
       "description": "������� �����. ������ ��������.",
       "price": "2340.00",
       "quantity": 10,
@@ -51,7 +51,7 @@
     "model": "products.product",
     "pk": 6,
     "fields": {
-      "name": "������ ����� �� ��������� � 3 ������ �������� Dr Martens 1461 Bex",
+      "name": "Dr Martens 1461 Bex",
       "description": "������� ������� ����. ����������� ��������.",
       "price": "1359.00",
       "quantity": 10,
@@ -63,7 +63,7 @@
     "model": "products.product",
     "pk": 7,
     "fields": {
-      "name": "�����-����� ������� ������� ����� ASOS DESIGN",
+      "name": " ASOS DESIGN",
       "description": "������ ���������� ����� �������� ��������� �����.",
       "price": "2890.00",
       "quantity": 10,
