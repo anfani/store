@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05890e05-48b3-4baa-86d0-28c3c5696c00" name="Changes" comment="закончил модуль 7.11">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="05890e05-48b3-4baa-86d0-28c3c5696c00" name="Changes" comment="сломанная хуйня django 3.2.13 python 3.12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +119,7 @@
       <workItem from="1726083738339" duration="4173000" />
       <workItem from="1726142997875" duration="8140000" />
       <workItem from="1726160682742" duration="5706000" />
-      <workItem from="1726231792035" duration="10561000" />
+      <workItem from="1726231792035" duration="10733000" />
     </task>
     <task id="LOCAL-00001" summary="добавил продукт в сеттинг">
       <option name="closed" value="true" />
@@ -286,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726248661918</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="сломанная хуйня django 3.2.13 python 3.12">
+      <option name="closed" value="true" />
+      <created>1726252096602</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726252096602</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +314,8 @@
     <MESSAGE value="закончил модуль 6" />
     <MESSAGE value="закончил модуль 7.6" />
     <MESSAGE value="закончил модуль 7.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="закончил модуль 7.11" />
+    <MESSAGE value="сломанная хуйня django 3.2.13 python 3.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="сломанная хуйня django 3.2.13 python 3.12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
