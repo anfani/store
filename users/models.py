@@ -1,11 +1,11 @@
-import uuid
-from django.core.mail import send_mail
-from django.db import models
-from django.contrib.auth.models import AbstractUser
-from django.urls import reverse
 
 from django.conf import settings
+from django.contrib.auth.models import AbstractUser
+from django.core.mail import send_mail
+from django.db import models
+from django.urls import reverse
 from django.utils.timezone import now
+
 
 class User(AbstractUser):
     image = models.ImageField(upload_to='users_images', null=True,  blank=True)
@@ -37,7 +37,6 @@ class EmailVerification(models.Model):
             recipient_list=[self.user.email],
             fail_silently=False,
         )
-
 
     def is_expired(self):
         return True if now() >= self.expiration else False

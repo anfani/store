@@ -31,7 +31,6 @@ class Product(models.Model):
         return f'Продукт: {self.name} | Категория: {self.category}'
 
 
-
 class BasketQuerySet(models.QuerySet):
     def total_sum(self):
         return sum(basket.sum() for basket in self)
@@ -53,4 +52,3 @@ class Basket(models.Model):
 
     def sum(self):
         return self.product.price * self.quantity
-
