@@ -4,7 +4,7 @@ from django.views.generic.base import TemplateView
 from django.views.generic.list import ListView
 
 from common.views import TitleMixin
-from products.models import Basket, Product
+from products.models import Basket, Product, ProductCategory
 
 
 class IndexView(TitleMixin, TemplateView):
@@ -23,12 +23,20 @@ class ProductListView(TitleMixin, ListView):
         category_id = self.kwargs.get('category_id')
         return queryset.filter(category_id=category_id) if category_id else queryset
 
+
     # def get_queryset(self):
     #     queryset = super(ProductListView, self).get_queryset()
     #     category_id = self.kwargs.get('category_id')
     #     if category_id:
     #         queryset = queryset.filter(category_id=category_id)
-    #     return queryset.order_by('id')
+    #     return queryset.order_by('category_id')
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['categories'] = ProductCategory.objects.all().order_by('-name')  # Передача списка категорий
+        return context
+
+
 
 
 @login_required
