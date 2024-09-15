@@ -3,7 +3,7 @@
     "model": "products.productcategory",
     "pk": 2,
     "fields": {
-      "name": "Одежда",
+      "name": "Clothes",
       "description": ""
     }
   },
@@ -11,7 +11,7 @@
     "model": "products.productcategory",
     "pk": 3,
     "fields": {
-      "name": "Новинки",
+      "name": "Novelties",
       "description": ""
     }
   },
@@ -19,15 +19,15 @@
     "model": "products.productcategory",
     "pk": 4,
     "fields": {
-      "name": "Обувь тест тест",
-      "description": "111111"
+      "name": "Shoes",
+      "description": ""
     }
   },
   {
     "model": "products.productcategory",
     "pk": 5,
     "fields": {
-      "name": "Аксессуары",
+      "name": "Accessories",
       "description": ""
     }
   },
@@ -35,7 +35,7 @@
     "model": "products.productcategory",
     "pk": 7,
     "fields": {
-      "name": "Подарки",
+      "name": "Gifts",
       "description": ""
     }
   }

@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05890e05-48b3-4baa-86d0-28c3c5696c00" name="Changes" comment="закончил модуль 8.4">
+    <list default="true" id="05890e05-48b3-4baa-86d0-28c3c5696c00" name="Changes" comment="закончил модуль 8.x">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/fixtures/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/products/fixtures/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/fixtures/goods.json" beforeDir="false" afterPath="$PROJECT_DIR$/products/fixtures/goods.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,29 +56,125 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Django Server.store.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.store.executor": "Run",
+    "Django tests.Test: products.tests.IndexViewTestCase.test_view.executor": "Run",
+    "Django tests.Test: products.tests.ProductsListViewTestCase.executor": "Run",
+    "Django tests.Test: products.tests.ProductsListViewTestCase.test_list_with_category.executor": "Run",
+    "Django tests.Test: products.tests.ProductsListViewTestCase.test_view.executor": "Run",
+    "Django tests.Test: users.tests.UserLoginViewTestCase.executor": "Run",
+    "Django tests.Test: users.tests.UserLoginViewTestCase.test_login_failure.executor": "Run",
+    "Django tests.Test: users.tests.UserLoginViewTestCase.test_login_page_loads_successfully.executor": "Run",
+    "Django tests.Test: users.tests.UserLoginViewTestCase.test_login_successful.executor": "Run",
+    "Django tests.Test: users.tests.UserRegistrationViewTestCase.executor": "Run",
+    "Django tests.Test: users.tests.UserRegistrationViewTestCase.test_user_registration_get.executor": "Run",
+    "Django tests.Test: users.tests.UserRegistrationViewTestCase.test_user_registration_post_error.executor": "Run",
+    "Django tests.Test: users.tests.UserRegistrationViewTestCase.test_user_registration_post_success.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\store-server\store\products\fixtures" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.store">
+    <configuration name="Test: users.tests.UserLoginViewTestCase.test_login_failure" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="store" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="users.tests.UserLoginViewTestCase.test_login_failure" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: users.tests.UserRegistrationViewTestCase.test_user_registration_get" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="store" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="users.tests.UserRegistrationViewTestCase.test_user_registration_get" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: users.tests.UserRegistrationViewTestCase.test_user_registration_post_error" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="store" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="users.tests.UserRegistrationViewTestCase.test_user_registration_post_error" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: users.tests.UserRegistrationViewTestCase.test_user_registration_post_success" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="store" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="users.tests.UserRegistrationViewTestCase.test_user_registration_post_success" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="store" type="Python.DjangoServer" factoryName="Django server">
       <module name="store" />
       <option name="ENV_FILES" value="" />
@@ -98,6 +200,14 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: users.tests.UserRegistrationViewTestCase.test_user_registration_get" />
+        <item itemvalue="Django tests.Test: users.tests.UserRegistrationViewTestCase.test_user_registration_post_error" />
+        <item itemvalue="Django tests.Test: users.tests.UserRegistrationViewTestCase.test_user_registration_post_success" />
+        <item itemvalue="Django tests.Test: users.tests.UserLoginViewTestCase.test_login_failure" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -126,7 +236,7 @@
       <workItem from="1726252781708" duration="4888000" />
       <workItem from="1726300564863" duration="4169000" />
       <workItem from="1726342186942" duration="1522000" />
-      <workItem from="1726389686164" duration="3752000" />
+      <workItem from="1726389686164" duration="9917000" />
     </task>
     <task id="LOCAL-00001" summary="добавил продукт в сеттинг">
       <option name="closed" value="true" />
@@ -344,7 +454,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726392460470</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="закончил модуль 8.x">
+      <option name="closed" value="true" />
+      <created>1726393688653</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1726393688653</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,9 +493,22 @@
     <MESSAGE value="опять сломанная хуйня" />
     <MESSAGE value="починил вывод категорий, доавил get_context_data" />
     <MESSAGE value="закончил модуль 8.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="закончил модуль 8.4" />
+    <MESSAGE value="закончил модуль 8.x" />
+    <option name="LAST_COMMIT_MESSAGE" value="закончил модуль 8.x" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/store$Test__users_tests_UserRegistrationViewTestCase_test_user_registration_get.coverage" NAME="Test: users.tests.UserRegistrationViewTestCase.test_user_registration_get Coverage Results" MODIFIED="1726401430365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/store$Test__products_tests_IndexViewTestCase_test_view.coverage" NAME="Test: products.tests.IndexViewTestCase.test_view Coverage Results" MODIFIED="1726397469550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/store$Test__users_tests_UserRegistrationViewTestCase_test_user_registration_post_error.coverage" NAME="Test: users.tests.UserRegistrationViewTestCase.test_user_registration_post_error Coverage Results" MODIFIED="1726401247301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/store$Test__users_tests_UserLoginViewTestCase.coverage" NAME="Test: users.tests.UserLoginViewTestCase Coverage Results" MODIFIED="1726400863179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/store$Test__products_tests_ProductsListViewTestCase.coverage" NAME="Test: products.tests.ProductsListViewTestCase Coverage Results" MODIFIED="1726400213514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/store$Test__users_tests_UserRegistrationViewTestCase_test_user_registration_post_success.coverage" NAME="Test: users.tests.UserRegistrationViewTestCase.test_user_registration_post_success Coverage Results" MODIFIED="1726401243522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/store$Test__users_tests_UserLoginViewTestCase_test_login_successful.coverage" NAME="Test: users.tests.UserLoginViewTestCase.test_login_successful Coverage Results" MODIFIED="1726400880623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/store$Test__users_tests_UserLoginViewTestCase_test_login_failure.coverage" NAME="Test: users.tests.UserLoginViewTestCase.test_login_failure Coverage Results" MODIFIED="1726400903891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/store$Test__products_tests_ProductsListViewTestCase_test_list_with_category.coverage" NAME="Test: products.tests.ProductsListViewTestCase.test_list_with_category Coverage Results" MODIFIED="1726400123000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/store$Test__products_tests_ProductsListViewTestCase_test_view.coverage" NAME="Test: products.tests.ProductsListViewTestCase.test_view Coverage Results" MODIFIED="1726397657563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/store$Test__users_tests_UserRegistrationViewTestCase.coverage" NAME="Test: users.tests.UserRegistrationViewTestCase Coverage Results" MODIFIED="1726401434853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/store$Test__users_tests_UserLoginViewTestCase_test_login_page_loads_successfully.coverage" NAME="Test: users.tests.UserLoginViewTestCase.test_login_page_loads_successfully Coverage Results" MODIFIED="1726400876596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/store$mia.coverage" NAME="mia Coverage Results" MODIFIED="1725986534897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/store" />
   </component>
 </project>

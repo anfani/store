@@ -16,7 +16,7 @@ class ProductListView(TitleMixin, ListView):
     model = Product
     template_name = 'products/products.html'
     paginate_by = 3
-    title = 'Store- Каталог'
+    title = 'Store - Каталог'
 
     def get_queryset(self):
         queryset = super(ProductListView, self).get_queryset()
@@ -27,8 +27,6 @@ class ProductListView(TitleMixin, ListView):
         context = super().get_context_data(**kwargs)
         context['categories'] = ProductCategory.objects.all().order_by('-name')  # Передача списка категорий
         return context
-
-
 
 
 @login_required
