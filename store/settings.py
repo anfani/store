@@ -39,13 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     'django.contrib.sites',  # обязательно для allauth
+
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.github',
-
+    'debug_toolbar',
+    
     'products',
     'users',
 ]
@@ -59,6 +60,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'store.urls'
@@ -81,6 +83,21 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'store.wsgi.application'
+
+INTERNAL_IPS = [
+    '127.0.0.1',
+    'localhost',
+]
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': 'redis://127.0.0.1:6379/1',
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+        }
+    }
+}
 
 
 # Database
@@ -154,13 +171,12 @@ LOGOUT_REDIRECT_URL = '/'
 
 # Sending email
 
-# EMAIL_HOST = 'smtp.yandex.com'
-# EMAIL_PORT = 465
-# EMAIL_HOST_USER = 'slavadjango12@yandex.ru'
-# EMAIL_HOST_PASSWORD = 'febyxcdkzfhkqduh'
-# EMAIL_USE_SSL = True
-# EMAIL_USE_TLS = False
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'smtp.yandex.com'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'slavadjango12@yandex.ru'
+EMAIL_HOST_PASSWORD = 'febyxcdkzfhkqduh'
+EMAIL_USE_SSL = True
+EMAIL_USE_TLS = False
 
 
 # All auth
@@ -181,3 +197,8 @@ SOCIALACCOUNT_PROVIDERS = {
         ],
     }
 }
+
+# Celery
+
+CELERY_BROKER_URL = 'redis://127.0.0.1:6379'
+CELERY_RESULT_BACKEND = 'redis://127.0.0.1:6379'

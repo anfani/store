@@ -11,11 +11,11 @@ class IndexView(TitleMixin, TemplateView):
     template_name = 'products/index.html'
     title = 'Store'
 
-
 class ProductListView(TitleMixin, ListView):
     model = Product
     template_name = 'products/products.html'
     paginate_by = 3
+    context_object_name = "products"
     title = 'Store - Каталог'
 
     def get_queryset(self):
@@ -25,7 +25,8 @@ class ProductListView(TitleMixin, ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['categories'] = ProductCategory.objects.all().order_by('-name')  # Передача списка категорий
+        context['categories'] = ProductCategory.objects.all().order_by('name')
+        context['category_id'] = self.kwargs.get('category_id')
         return context
 
 
