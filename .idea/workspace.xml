@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05890e05-48b3-4baa-86d0-28c3c5696c00" name="Changes" comment="закончил модуль 9.x">
-      <change afterPath="$PROJECT_DIR$/orders/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders/templates/orders/order-create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders/templates/orders/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders/templates/orders/orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders/templates/orders/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/store.iml" afterDir="false" />
+    <list default="true" id="05890e05-48b3-4baa-86d0-28c3c5696c00" name="Changes" comment="закончил модуль 10.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/products/baskets.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/baskets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/templates/orders/order-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders/templates/orders/order-create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/products/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +234,8 @@
       <workItem from="1726300564863" duration="4169000" />
       <workItem from="1726342186942" duration="1522000" />
       <workItem from="1726389686164" duration="13155000" />
-      <workItem from="1726420231098" duration="3947000" />
+      <workItem from="1726420231098" duration="4002000" />
+      <workItem from="1726492947273" duration="5403000" />
     </task>
     <task id="LOCAL-00001" summary="добавил продукт в сеттинг">
       <option name="closed" value="true" />
@@ -482,14 +477,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726421279881</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="закончил модуль 10.3">
+      <option name="closed" value="true" />
+      <created>1726424220016</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1726424220016</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="добавил динамические ссылки в шаблонах урок 2.4" />
     <MESSAGE value="закончил модуль 3.6" />
     <MESSAGE value="закончил модуль 3.7" />
     <MESSAGE value="закончил модуль 3.x" />
@@ -514,7 +516,8 @@
     <MESSAGE value="закончил модуль 8.x" />
     <MESSAGE value="закончил модуль 9.5, написал тест" />
     <MESSAGE value="закончил модуль 9.x" />
-    <option name="LAST_COMMIT_MESSAGE" value="закончил модуль 9.x" />
+    <MESSAGE value="закончил модуль 10.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="закончил модуль 10.3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/store$Test__users_tests_UserRegistrationViewTestCase_test_user_registration_get.coverage" NAME="Test: users.tests.UserRegistrationViewTestCase.test_user_registration_get Coverage Results" MODIFIED="1726401430365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
