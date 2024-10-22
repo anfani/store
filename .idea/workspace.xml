@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05890e05-48b3-4baa-86d0-28c3c5696c00" name="Changes" comment="закончил модуль 10.3">
+    <list default="true" id="05890e05-48b3-4baa-86d0-28c3c5696c00" name="Changes" comment="закончил модуль 10.4">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/orders/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/templates/orders/order-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders/templates/orders/order-create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/products/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,35 +51,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Django Server.store.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: products.tests.IndexViewTestCase.test_view.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: products.tests.ProductsListViewTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: products.tests.ProductsListViewTestCase.test_list_with_category.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: products.tests.ProductsListViewTestCase.test_view.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: users.tests.UserLoginViewTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: users.tests.UserLoginViewTestCase.test_login_failure.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: users.tests.UserLoginViewTestCase.test_login_page_loads_successfully.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: users.tests.UserLoginViewTestCase.test_login_successful.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: users.tests.UserRegistrationViewTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: users.tests.UserRegistrationViewTestCase.test_user_registration_get.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: users.tests.UserRegistrationViewTestCase.test_user_registration_post_error.executor&quot;: &quot;Run&quot;,
-    &quot;Django tests.Test: users.tests.UserRegistrationViewTestCase.test_user_registration_post_success.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.store.executor": "Run",
+    "Django tests.Test: products.tests.IndexViewTestCase.test_view.executor": "Run",
+    "Django tests.Test: products.tests.ProductsListViewTestCase.executor": "Run",
+    "Django tests.Test: products.tests.ProductsListViewTestCase.test_list_with_category.executor": "Run",
+    "Django tests.Test: products.tests.ProductsListViewTestCase.test_view.executor": "Run",
+    "Django tests.Test: users.tests.UserLoginViewTestCase.executor": "Run",
+    "Django tests.Test: users.tests.UserLoginViewTestCase.test_login_failure.executor": "Run",
+    "Django tests.Test: users.tests.UserLoginViewTestCase.test_login_page_loads_successfully.executor": "Run",
+    "Django tests.Test: users.tests.UserLoginViewTestCase.test_login_successful.executor": "Run",
+    "Django tests.Test: users.tests.UserRegistrationViewTestCase.executor": "Run",
+    "Django tests.Test: users.tests.UserRegistrationViewTestCase.test_user_registration_get.executor": "Run",
+    "Django tests.Test: users.tests.UserRegistrationViewTestCase.test_user_registration_post_error.executor": "Run",
+    "Django tests.Test: users.tests.UserRegistrationViewTestCase.test_user_registration_post_success.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/python tasks/python_baza",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\store-server\store\products\fixtures" />
@@ -235,7 +235,18 @@
       <workItem from="1726342186942" duration="1522000" />
       <workItem from="1726389686164" duration="13155000" />
       <workItem from="1726420231098" duration="4002000" />
-      <workItem from="1726492947273" duration="5403000" />
+      <workItem from="1726492947273" duration="9003000" />
+      <workItem from="1726589462639" duration="963000" />
+      <workItem from="1726751934300" duration="24000" />
+      <workItem from="1726940628461" duration="762000" />
+      <workItem from="1726993164289" duration="35000" />
+      <workItem from="1727528142394" duration="41000" />
+      <workItem from="1727703441798" duration="15000" />
+      <workItem from="1727881806455" duration="636000" />
+      <workItem from="1727972127065" duration="1218000" />
+      <workItem from="1728049619172" duration="922000" />
+      <workItem from="1728217230797" duration="32000" />
+      <workItem from="1729616616308" duration="3456000" />
     </task>
     <task id="LOCAL-00001" summary="добавил продукт в сеттинг">
       <option name="closed" value="true" />
@@ -485,14 +496,24 @@
       <option name="project" value="LOCAL" />
       <updated>1726424220016</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="закончил модуль 10.4">
+      <option name="closed" value="true" />
+      <created>1726499297057</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1726499297057</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="закончил модуль 3.6" />
     <MESSAGE value="закончил модуль 3.7" />
     <MESSAGE value="закончил модуль 3.x" />
     <MESSAGE value="закончил модуль 4.5" />
@@ -517,7 +538,8 @@
     <MESSAGE value="закончил модуль 9.5, написал тест" />
     <MESSAGE value="закончил модуль 9.x" />
     <MESSAGE value="закончил модуль 10.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="закончил модуль 10.3" />
+    <MESSAGE value="закончил модуль 10.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="закончил модуль 10.4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/store$Test__users_tests_UserRegistrationViewTestCase_test_user_registration_get.coverage" NAME="Test: users.tests.UserRegistrationViewTestCase.test_user_registration_get Coverage Results" MODIFIED="1726401430365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
